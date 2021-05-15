@@ -1,0 +1,120 @@
+$font: "Courier New", "Courier", monospace;
+
+//Colors
+$white: #FFFFFF;
+$black: #000000;
+$darkest-grey: #313131;
+$lightest-grey: #A0A1A3;
+$off-white: #F3F5F3;
+
+html, body {
+    font-family: "Source Code Pro";
+    font-size: 16px;
+    line-height: 30px;
+    padding: 0px;
+    margin: 0;
+    scroll-behavior: smooth;
+    background-color: $off-white;
+    color: $darkest-grey;
+}
+
+body::-webkit-scrollbar {
+    display: block;
+    width: 10px;
+    height: 10px;
+    background-color: $off-white;
+}
+
+body::-webkit-scrollbar-thumb {
+    background-color: $lightest-grey;
+    -webkit-border-radius: 10px;
+}
+.page__wrapper {
+    position: relative;
+    .page__content {
+        margin-left: 18%;
+        margin-right: 18%;
+        margin-top: 8%;
+        @media (max-width: 768px) {
+            margin-top: 20%; 
+            margin-left: 10%;
+            margin-right: 10%;
+        }
+        h1 {
+            @media (max-width: 768px) {
+                font-size: 28px; 
+            }
+        }
+        h2 {
+            @media (max-width: 768px) {
+                font-size: 18px;
+            }
+        }
+
+        .info__wrapper {
+            hr {
+                opacity: 30%;
+            }
+        }
+        .about__para {
+            padding-top: 75px;
+            h3  {
+                font-size: 28px;
+                margin-left: 3%;
+            }
+            p {
+                font-size: 16px;
+                line-height: 45px;
+                @media (max-width: 768px) {
+                    line-height: 30px; 
+                }
+            }
+            a {
+                color: black;
+            }
+        }
+        .help__para {
+            padding-top: 75px;
+            p {
+                text-align: center;
+            }
+            a {
+                margin-top: 100px;
+                margin-left: auto;
+                margin-right: auto;
+                border-right: 2px solid black;
+                border-bottom: 2px solid black; 
+                display: block;
+                width: 40%;
+                text-decoration: none;
+                color: $black;
+                text-align: center;
+                box-shadow: 10px 10px 25px #d9d9d9;
+                &:last-child {
+                    margin-top: 10px;
+                    margin-bottom: 100px;
+                }
+                @media (max-width: 768px) {
+                   width: 90%; 
+                }
+            }
+                
+        }
+        
+    }
+    .footer {
+        position: sticky;
+        bottom: 0;
+        left: 0;
+        background-color: $off-white;
+        box-shadow: 10px 10px 25px #b3b3b3;
+        .page__footer__message {
+            text-align: center;
+            a {
+                color: $darkest-grey;
+            }    
+        }
+    
+
+    }
+}
