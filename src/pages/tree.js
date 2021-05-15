@@ -1,6 +1,8 @@
 import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
+import "@fontsource/source-code-pro"
+
 
 //import components
 import styles from '../styles/tree.scss'

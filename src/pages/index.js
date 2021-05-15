@@ -2,6 +2,7 @@ import * as React from "react"
 import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 import { Helmet } from "react-helmet"
+import "@fontsource/source-code-pro"
 
 //import components
 import Countdown from '../components/Countdown'
