@@ -5,7 +5,6 @@
   "version": "0.1.0",
   "author": "Pixel10312 <https://github.com/Pixel10312>",
   "dependencies": {
-    "@fontsource/source-code-pro": "^4.3.0",
     "axios": "^0.21.1",
     "gatsby-plugin-gatsby-cloud": "^2.2.0",
     "gatsby-plugin-google-gtag": "^3.4.0",
