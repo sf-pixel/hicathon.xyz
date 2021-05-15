@@ -1,6 +1,6 @@
 {
-  "homewpage": "Pixel10312.github.io/hicathon/",
-  "name": "A hicathon website.",
+  "homepage": "Pixel10312.github.io/hicathon/",
+  "name": "hicathon",
   "private": true,
   "description": "A simple landing page for hicathon 2021",
   "version": "0.1.0",
@@ -39,7 +39,7 @@
   "license": "0BSD",
   "scripts": {
     "predeploy": "npm run build,",
-    "deploy": "gh-pages -d build",
+    "deploy": "gatsby build && gh-pages -d public -b main",
     "build": "npm build",
     "develop": "gatsby develop",
     "format": "prettier --write \"**/*.{js,jsx,ts,tsx,json,md}\"",
