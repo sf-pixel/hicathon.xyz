@@ -1,11 +1,5 @@
-//@font-face {
-//    font-family: 'Source Code Pro';
-//    src: url('../fonts/source-code-pro-v14-latin-regular.woff2') format('woff2'),
-//         url('../fonts/source-code-pro-v14-latin-regular.woff') format('woff'),
-//         url('../fonts/source-code-pro-v14-latin-regular.ttf') format('truetype'),
-//         url('../fonts/source-code-pro-v14-latin-regular.eot') format('embedded-opentype');
-//}
- 
+$font: "Source Code Pro", "Source Code", "Courier New", "Courier", monospace;
+
 //Colors
 $white: #FFFFFF;
 $black: #000000;
@@ -14,14 +8,14 @@ $lightest-grey: #A0A1A3;
 $off-white: #F3F5F3;
 
 html, body {
-    font-family: 'Source Code Pro';
-    font-size: 20px;
+    font-family: "Source Code Pro";
+    font-size: 16px;
     line-height: 30px;
     padding: 0px;
     margin: 0;
     scroll-behavior: smooth;
     background-color: $off-white;
-    color: #111111;
+    color: $darkest-grey;
 }
 
 body::-webkit-scrollbar {
@@ -69,7 +63,7 @@ body::-webkit-scrollbar-thumb {
                 margin-left: 3%;
             }
             p {
-                font-size: 19px;
+                font-size: 16px;
                 line-height: 45px;
                 @media (max-width: 768px) {
                     line-height: 30px; 
