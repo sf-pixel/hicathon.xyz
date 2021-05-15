@@ -16,7 +16,7 @@ const IndexPage = () => (
     <a href="https://discord.gg/efHzUbPwsF">💬 Discord Channel</a>
     <a href="https://docs.google.com/spreadsheets/d/1zAD_4pHzygU204crpJWVyVoV27lSSW207ZZIaa8kcng/edit#gid=1267499412">📝 Hicathon Readme</a>
     <a href="https://docs.google.com/spreadsheets/d/1zAD_4pHzygU204crpJWVyVoV27lSSW207ZZIaa8kcng/edit#gid=0">📝 Volunteer Sign Up Sheet</a>
-    <a href="https://discord.gg/efHzUbPwsF">💡 Miro Ideas + Planning Board</a>
+    <a href="https://miro.com/welcomeonboard/aIe9NoUMqwXEH1gH16rTeikeucQnai0Vam0ORwvmIQ4AHORYNaCgqKJNWF1HNXkH">💡 Miro Ideas + Planning Board</a>
     <a href="https://docs.google.com/spreadsheets/d/1zAD_4pHzygU204crpJWVyVoV27lSSW207ZZIaa8kcng/edit#gid=1016698333">💡 Google Sheets Idea Capture</a>
     <a href="/">🏠 Home</a>
     </div>
