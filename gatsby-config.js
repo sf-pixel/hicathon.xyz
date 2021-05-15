@@ -1,9 +1,8 @@
 module.exports = {
-  pathPrefix: "/hicathon",
   siteMetadata: {
     title: `hicathon`,
     description: `A simple landing page for hicathon 2021.`,
-    author: `@homeworkpunks`,
+    author: `@homeworkpunks <https://twitter.com/homeworkpunks>`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -30,12 +29,7 @@ module.exports = {
       },
     },
     `gatsby-plugin-sass`,
-    
     `gatsby-plugin-gatsby-cloud`,
-
-
-
-
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
