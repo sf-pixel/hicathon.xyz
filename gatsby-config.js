@@ -29,6 +29,20 @@ module.exports = {
         icon: `src/images/icon.png`, // This path is relative to the root of the site.
       },
     },
+    {
+      resolve: `gatsby-plugin-prefetch-google-fonts`,
+      options: {
+        fonts: [
+          {
+            family: `Source Code Pro`,
+            variants: [`400`, `400i`, `700`]
+          },
+          {
+            family: `Courier Prime`,
+          },
+        ],
+      },
+    },
     `gatsby-plugin-sass`,
     
     `gatsby-plugin-gatsby-cloud`,
