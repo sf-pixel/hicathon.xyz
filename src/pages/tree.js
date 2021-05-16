@@ -3,6 +3,7 @@ import { Link } from "gatsby"
 import { StaticImage } from "gatsby-plugin-image"
 
 //import components
+import styles from '../styles/styles.scss'
 import styles from '../styles/tree.scss'
 import { Helmet } from "react-helmet"
 
