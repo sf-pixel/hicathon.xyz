@@ -30,19 +30,9 @@ module.exports = {
       },
     },
     `gatsby-plugin-sass`,
-<<<<<<< HEAD
 
     `gatsby-plugin-gatsby-cloud`,
     
-    
-=======
-    
-    `gatsby-plugin-gatsby-cloud`,
-
-
-
-
->>>>>>> parent of 957d478 (Merge branch 'main' of https://github.com/Pixel10312/hicathon into main)
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
