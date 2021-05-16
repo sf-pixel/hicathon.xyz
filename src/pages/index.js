@@ -38,7 +38,7 @@ const IndexPage = () => (
     </div>
     <footer className="footer">
         <div className="page__footer__message">
-        Made with 💖 by <a href="https://twitter.com/homeworkpunks">@homeworkpunks</a>, powered by <a href="https://netlify.com">Netlify.</a>
+        Made with 💖 by <a href="https://twitter.com/homeworkpunks">@homeworkpunks</a>, powered by <a href="https://pages.github.com">Github Pages.</a>
         </div>
     </footer>
   </div>

@@ -1,8 +1,9 @@
 module.exports = {
+  pathPrefix: "/hicathon",
   siteMetadata: {
     title: `hicathon`,
     description: `A simple landing page for hicathon 2021.`,
-    author: `@homeworkpunks <https://twitter.com/homeworkpunks>`,
+    author: `@homeworkpunks`,
   },
   plugins: [
     `gatsby-plugin-react-helmet`,
@@ -29,10 +30,19 @@ module.exports = {
       },
     },
     `gatsby-plugin-sass`,
+<<<<<<< HEAD
 
     `gatsby-plugin-gatsby-cloud`,
     
     
+=======
+    
+    `gatsby-plugin-gatsby-cloud`,
+
+
+
+
+>>>>>>> parent of 957d478 (Merge branch 'main' of https://github.com/Pixel10312/hicathon into main)
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
     // `gatsby-plugin-offline`,
