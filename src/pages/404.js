@@ -1,7 +1,7 @@
 import * as React from "react"
 import { Helmet } from "react-helmet"
-import styles from '../styles/styles.scss'
-import styles from '../styles/404.scss'
+import '../styles/styles.scss'
+import '../styles/404.scss'
 
 const NotFoundPage = () => (
   <div className="content__404">

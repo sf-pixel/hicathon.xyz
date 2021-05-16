@@ -1,5 +1,5 @@
 import React, { useEffect, useRef, useState } from 'react';
-import styles from '../styles/countdown.scss'
+import '../styles/countdown.scss'
 
 const Countdown = () => {
     const [timerDays, setTimerDays] = useState('00');
