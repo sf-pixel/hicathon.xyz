@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 @import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap');
+=======
+$font: "Courier New", "Courier", monospace;
+>>>>>>> parent of 4bf0452 (Increased readability)
 
 //Colors
 $white: #FFFFFF;
@@ -63,7 +67,7 @@ body::-webkit-scrollbar-thumb {
                 margin-left: 3%;
             }
             p {
-                font-size: 19px;
+                font-size: 16px;
                 line-height: 45px;
                 @media (max-width: 768px) {
                     line-height: 30px; 
