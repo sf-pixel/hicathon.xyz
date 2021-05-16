@@ -1,5 +1,4 @@
 module.exports = {
-  pathPrefix: "/hicathon",
   siteMetadata: {
     title: `hicathon`,
     description: `A simple landing page for hicathon 2021.`,
