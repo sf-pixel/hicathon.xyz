@@ -80,7 +80,7 @@ const Guidelines = () => (
           <div className="font__examples">
             <div className="source__code__pro">
               <h1>This is a header in the font <i>'Source Code Pro'</i></h1>
-              <p>This is a paragraph in the font <i>'Source Code Pro'</i>, you can download me <a href="https://fonts.google.com/download?family=Inconsolata">here.</a></p><br></br>
+              <p>This is a paragraph in the font <i>'Source Code Pro'</i>, you can download me <a href="https://fonts.google.com/download?family=Source+Code+Pro">here.</a></p><br></br>
             </div>
             <div className="inconsolata">
               <h1>This is a header in the font <i>'Inconsolata'</i></h1>
