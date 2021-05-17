@@ -6,7 +6,7 @@ import '../styles/404.scss'
 const NotFoundPage = () => (
   <div className="content__404">
     <Helmet>
-      <title>hicathon</title>
+      <title>hicathon | 404</title>
       <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
     </Helmet>
     <p alt="404 page, an error occured">❌ An error occurred.</p>

@@ -1,12 +1,14 @@
 .countdown__wrapper {
     text-align: center;
-    padding-top: 75px;
-    padding-bottom: 75px;
-    font-size: 20px;
+    padding-top: 150px;
+    padding-bottom: 100px;
+    font-size: 4vw;
     letter-spacing: 5px;
     font-weight: 450;
     @media (max-width: 768px) {
-        font-size: 18px;
+        padding-top: 10vh;
+        padding-bottom: 5vh;
+        font-size: 5vw;
         letter-spacing: 2px; 
     }
 }

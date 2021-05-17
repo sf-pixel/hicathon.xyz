@@ -1,5 +1,6 @@
 $font: "Source Code Pro", "Courier New", monospace;
 @import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inconsolata&display=swap);
 
 //Colors
 $white: #FFFFFF;
@@ -53,12 +54,33 @@ body::-webkit-scrollbar-thumb {
         }
 
         .info__wrapper {
-            hr {
-                opacity: 30%;
+            height: max-content;
+            a {
+                margin-left: auto;
+                margin-right: auto;
+                margin-bottom: 15px;
+                border-right: 2px solid black;
+                border-bottom: 2px solid black; 
+                display: block;
+                width: 70%;
+                text-decoration: none;
+                color: $black;
+                text-align: center;
+                box-shadow: 10px 10px 25px #e3e3e3;
+                transition: 0.4s;
+                transition-timing-function: ease-out;
+                @media (max-width: 1024px) {
+                    width: 80%;
+                    font-size: 18px;
+                }
+            }
+            a:hover {
+                box-shadow: 10px 10px 25px #787878;
             }
         }
         .about__para {
             padding-top: 75px;
+            margin-bottom: 100px;
             h3  {
                 font-size: 28px;
                 margin-left: 3%;
@@ -110,18 +132,12 @@ body::-webkit-scrollbar-thumb {
         left: 0;
         background-color: $off-white;
         box-shadow: 10px 10px 25px #b3b3b3;
-        @media (max-width: 768px) {
-            height: 75px;
-        }
         .page__footer__message {
             font-size: 16px;
             text-align: center;
             @media (max-width: 768px) {
-                padding-left: 15px;
-                padding-right: 15px;
-                padding-top: 17px;
+                padding: auto;
                 font-size: 15px;
-                line-height: 20px;
             }
             a {
                 color: $darkest-grey;
