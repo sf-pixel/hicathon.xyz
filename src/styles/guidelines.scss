@@ -1,0 +1,138 @@
+@import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inconsolata&display=swap);
+
+
+
+.page__wrapper {
+    .page__content {
+        .info__wrapper {
+            .skip__text {
+                padding-bottom: 5vh;
+            }
+        }
+        .guide__para {
+            padding-top: 75px;
+            margin-bottom: 100px;
+            h3 {
+                margin-left: 0;
+            }
+            hr {
+                opacity: 15%;
+            }
+            a {
+                color: #111111;
+            }
+            li {
+                @media (max-width:768px) {
+                    font-size: 16px;
+                }
+            }
+            .font__examples {
+                a {
+                    color: #111111;
+                }
+                display: flex;
+                flex-direction: column;
+                justify-content: space-evenly;
+                
+                @media (max-width: 1024px) {
+                    display: block;
+                }
+                .source__code__pro {
+                    width: fit-content;
+                    font-family: "Source Code Pro";
+                }
+                .inconsolata {
+                    width: fit-content;
+                    font-family: "Inconsolata";
+                }
+            }
+            .color__examples {
+                display: flex;
+                width: 60vw;
+                height: 30vh;
+                margin-left: auto;
+                margin-right: auto;
+                @media (max-width:768px) {
+                    width: 100%;
+                    flex-direction: column;
+                }
+                .not__quite__black {
+                    background-color: #111111;
+                    flex: 2 2 0px;
+                    .color__text {
+                        .color__name {
+                            text-align: center;
+                            color: #F3F5F3;
+                            
+                        }
+                        p {
+                            padding-top: none;
+                            text-align: center;
+                            color: #F3F5F3;
+                        }
+                    }
+                }
+                .not__quite__white {
+                    background-color: #F3F5F3;
+                    flex: 2 2 0px;
+                    .color__text {
+                        .color__name {
+                            text-align: center;
+                            color: #111111;
+                        }
+                        p {
+                            text-align: center;
+                            color: #111111;
+                        }
+                    }
+                }
+                .light__grey {
+                    background-color: #A0A1A3;
+                    flex: 2 2 0px;
+                    .color__text {
+                        .color__name {
+                            text-align: center;
+                            color: #111111;
+                            
+                        }
+                        p {
+                            padding-top: none;
+                            text-align: center;
+                            color: #111111;
+                        }
+                    }
+                }
+            }
+            .download__buttons {
+                padding-top: 100px;
+                display: flex;
+                flex-direction: column;
+                height: 55vh;
+                a {
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: 20px;
+                    border-right: 2px solid black;
+                    border-bottom: 2px solid black; 
+                    display: block;
+                    width: 70%;
+                    text-decoration: none;
+                    color: #111111;
+                    text-align: center;
+                    box-shadow: 10px 10px 25px #e3e3e3;
+                    transition: 0.4s;
+                    transition-timing-function: ease-out;
+                    @media (max-width: 1024px) {
+                        width: 80%;
+                        font-size: 18px;
+                    }
+                }
+                a:hover {
+                    box-shadow: 10px 10px 25px #787878;
+                }
+            }
+            
+        }
+    }
+}
