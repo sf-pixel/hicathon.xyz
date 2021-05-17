@@ -3,6 +3,7 @@ import { StaticImage } from "gatsby-plugin-image"
 import { Helmet } from "react-helmet"
 
 //import components
+import Logo from '../components/logo'
 import Countdown from '../components/Countdown'
 import '../styles/styles.scss'
 
@@ -13,6 +14,7 @@ const IndexPage = () => (
           <title>hicathon</title>
           <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Helmet>
+      <Logo />
       <div className="info__wrapper">
         <h1 className="opening__title">The very first <u>hicathon</u>.</h1>
         <h2 classname="opening__sub__title">📆 May 22<sup>nd</sup> - May 23<sup>rd</sup></h2>
