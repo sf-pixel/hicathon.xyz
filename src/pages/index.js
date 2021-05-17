@@ -14,7 +14,7 @@ const IndexPage = () => (
           <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Helmet>
       <div className="info__wrapper">
-        <h1 className="opening__title">The very first <u>hic-athon</u>.</h1>
+        <h1 className="opening__title">The very first <u>hicathon</u>.</h1>
         <h2 classname="opening__sub__title">📆 May 22<sup>nd</sup> - May 23<sup>rd</sup></h2>
         <Countdown />
         <a href="https://docs.google.com/spreadsheets/d/1zAD_4pHzygU204crpJWVyVoV27lSSW207ZZIaa8kcng/edit#gid=1267499412">🤝 Join the hicathon!</a>
