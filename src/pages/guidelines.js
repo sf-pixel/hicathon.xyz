@@ -84,7 +84,7 @@ const Guidelines = () => (
             </div>
             <div className="inconsolata">
               <h1>This is a header in the font <i>'Inconsolata'</i></h1>
-              <p>This is a paragraph in the font <i>'Source Code Pro'</i>, you can download me <a href="https://fonts.google.com/download?family=Inconsolata">here.</a></p><br></br>
+              <p>This is a paragraph in the font <i>'Inconsolata'</i>, you can download me <a href="https://fonts.google.com/download?family=Inconsolata">here.</a></p><br></br>
             </div>
           </div><br></br>
           <h4>🎨 Colors</h4><hr></hr>
