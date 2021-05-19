@@ -116,6 +116,7 @@ const Guidelines = () => (
             <a href={whitePngLogo} download>White H=N .PNG</a>
             <a href={whiteSvgLogo} download>White H=N .SVG</a>
             <a href={rawSvgLogo} download>Raw H=N .SVG</a>
+            <a href="https://drive.google.com/drive/folders/1YpdFVvVmCx_8imXS9xYgXUJLHDBTS2OF">Hicathon Visual Assets (Drop your finished files here)</a>
           </div>
       </div>   
     </div>
