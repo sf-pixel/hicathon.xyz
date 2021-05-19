@@ -25,6 +25,7 @@ const Guidelines = () => (
         <h1>📜 Brand Guidelines</h1>
         <h3 className="skip__text">Skip to:</h3>
         <div className="skip__buttons">
+          <Link to="/">🏠 Home</Link>
           <Link to="#skip__button__personality">Brand Personality</Link>
           <Link to="#skip__button__design">Design Guidelines</Link>
           <Link to="#skip__button__assets">Asset Downloads</Link>
