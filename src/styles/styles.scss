@@ -3,11 +3,11 @@ $font: "Source Code Pro", "Courier New", monospace;
 @import url(https://fonts.googleapis.com/css2?family=Inconsolata&display=swap);
 
 //Colors
-$white: #FFFFFF;
-$black: #000000;
-$darkest-grey: #313131;
-$lightest-grey: #A0A1A3;
-$off-white: #F3F5F3;
+$light-grey: #A0A1A3;
+$not-quite-white: #F3F5F3;
+$not-quite-black: #111111;
+$shadow-light: #e3e3e3;
+$shadow-dark: #787878;
 
 html, body {
     font-family: 'Source Code Pro';
@@ -16,19 +16,19 @@ html, body {
     padding: 0px;
     margin: 0;
     scroll-behavior: smooth;
-    background-color: $off-white;
-    color: #111111;
+    background-color: $not-quite-white;
+    color: $not-quite-black;
 }
 
 body::-webkit-scrollbar {
     display: block;
     width: 10px;
     height: 10px;
-    background-color: $off-white;
+    background-color: $not-quite-white;
 }
 
 body::-webkit-scrollbar-thumb {
-    background-color: $lightest-grey;
+    background-color: $light-grey;
     -webkit-border-radius: 10px;
 }
 .page__wrapper {
@@ -76,9 +76,9 @@ body::-webkit-scrollbar-thumb {
                 display: block;
                 width: 70%;
                 text-decoration: none;
-                color: $black;
+                color: $not-quite-black;
                 text-align: center;
-                box-shadow: 10px 10px 25px #e3e3e3;
+                box-shadow: 10px 10px 25px $shadow-light;
                 transition: 0.4s;
                 transition-timing-function: ease-out;
                 @media (max-width: 1024px) {
@@ -87,7 +87,7 @@ body::-webkit-scrollbar-thumb {
                 }
             }
             a:hover {
-                box-shadow: 10px 10px 25px #787878;
+                box-shadow: 10px 10px 25px $shadow-dark;
             }
         }
         .about__para {
@@ -114,9 +114,9 @@ body::-webkit-scrollbar-thumb {
                 display: block;
                 width: 70%;
                 text-decoration: none;
-                color: $black;
+                color: $not-quite-black;
                 text-align: center;
-                box-shadow: 10px 10px 25px #e3e3e3;
+                box-shadow: 10px 10px 25px $shadow-light;
                 transition: 0.4s;
                 transition-timing-function: ease-out;
                 @media (max-width: 1024px) {
@@ -125,7 +125,7 @@ body::-webkit-scrollbar-thumb {
                 }
             }
             a:hover {
-                box-shadow: 10px 10px 25px #787878;
+                box-shadow: 10px 10px 25px $shadow-dark;
             }
         }
         
@@ -134,8 +134,8 @@ body::-webkit-scrollbar-thumb {
         position: sticky;
         bottom: 0;
         left: 0;
-        background-color: $off-white;
-        box-shadow: 10px 10px 25px #b3b3b3;
+        background-color: $not-quite-white;
+        box-shadow: 10px 10px 25px $shadow-dark;
         .page__footer__message {
             font-size: 16px;
             text-align: center;
@@ -144,7 +144,7 @@ body::-webkit-scrollbar-thumb {
                 font-size: 15px;
             }
             a {
-                color: $darkest-grey;
+                color: $not-quite-black;
             }    
         }
     
