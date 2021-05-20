@@ -125,8 +125,8 @@ body::-webkit-scrollbar-thumb {
                     font-size: 18px;
                 }
             }
-            a:hover {
-                box-shadow: 10px 10px 25px $shadow-dark;
+            a {
+                color: $not-quite-black;
             }
         }
         
