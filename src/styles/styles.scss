@@ -10,6 +10,7 @@ $shadow-light: #e3e3e3;
 $shadow-dark: #787878;
 
 html, body {
+    height: 100%;
     font-family: 'Source Code Pro';
     font-size: 20px;
     line-height: 30px;
@@ -147,7 +148,5 @@ body::-webkit-scrollbar-thumb {
                 color: $not-quite-black;
             }    
         }
-    
-
     }
 }
