@@ -1,7 +1,11 @@
 @import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap);
 @import url(https://fonts.googleapis.com/css2?family=Inconsolata&display=swap);
 
-
+$light-grey: #A0A1A3;
+$not-quite-white: #F3F5F3;
+$not-quite-black: #111111;
+$shadow-light: #e3e3e3;
+$shadow-dark: #787878;
 
 .page__wrapper {
     .page__content {
@@ -20,7 +24,7 @@
                 opacity: 15%;
             }
             a {
-                color: #111111;
+                color: $not-quite-black;
             }
             li {
                 @media (max-width:768px) {
@@ -29,7 +33,7 @@
             }
             .font__examples {
                 a {
-                    color: #111111;
+                    color: $not-quite-black;
                 }
                 display: flex;
                 flex-direction: column;
@@ -58,48 +62,48 @@
                     flex-direction: column;
                 }
                 .not__quite__black {
-                    background-color: #111111;
+                    background-color: $not-quite-black;
                     flex: 2 2 0px;
                     .color__text {
                         .color__name {
                             text-align: center;
-                            color: #F3F5F3;
+                            color: $not-quite-white;
                             
                         }
                         p {
                             padding-top: none;
                             text-align: center;
-                            color: #F3F5F3;
+                            color: $not-quite-white;
                         }
                     }
                 }
                 .not__quite__white {
-                    background-color: #F3F5F3;
+                    background-color: $not-quite-white;
                     flex: 2 2 0px;
                     .color__text {
                         .color__name {
                             text-align: center;
-                            color: #111111;
+                            color: $not-quite-black;
                         }
                         p {
                             text-align: center;
-                            color: #111111;
+                            color: $not-quite-black;
                         }
                     }
                 }
                 .light__grey {
-                    background-color: #A0A1A3;
+                    background-color: $light-grey;
                     flex: 2 2 0px;
                     .color__text {
                         .color__name {
                             text-align: center;
-                            color: #111111;
+                            color: $not-quite-black;
                             
                         }
                         p {
                             padding-top: none;
                             text-align: center;
-                            color: #111111;
+                            color: $not-quite-black;
                         }
                     }
                 }
@@ -118,9 +122,9 @@
                     display: block;
                     width: 70%;
                     text-decoration: none;
-                    color: #111111;
+                    color: $not-quite-black;
                     text-align: center;
-                    box-shadow: 10px 10px 25px #e3e3e3;
+                    box-shadow: 10px 10px 25px $shadow-light;
                     transition: 0.4s;
                     transition-timing-function: ease-out;
                     @media (max-width: 1024px) {
@@ -129,7 +133,7 @@
                     }
                 }
                 a:hover {
-                    box-shadow: 10px 10px 25px #787878;
+                    box-shadow: 10px 10px 25px $shadow-dark;
                 }
             }
             
