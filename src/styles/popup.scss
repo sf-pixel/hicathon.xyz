@@ -29,6 +29,10 @@ $shadow-dark: rgba(0, 0, 0, 0.56);
         width: 100%;
         max-width: 640px;
         background-color: $not-quite-white;
+        @media (max-width: 768px) {
+            width: 78%;
+            font-size: 16px;
+        }
     
         .close__btn {
             cursor: pointer;

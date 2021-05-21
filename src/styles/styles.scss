@@ -83,7 +83,7 @@ body::-webkit-scrollbar-thumb {
                 transition: 0.4s;
                 transition-timing-function: ease-out;
                 @media (max-width: 1024px) {
-                    width: 80%;
+                    width: 100%;
                     font-size: 18px;
                 }
             }
@@ -121,7 +121,7 @@ body::-webkit-scrollbar-thumb {
                 transition: 0.4s;
                 transition-timing-function: ease-out;
                 @media (max-width: 1024px) {
-                    width: 80%;
+                    width: 100%;
                     font-size: 18px;
                 }
             }

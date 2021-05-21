@@ -13,5 +13,8 @@
     }
     .sub__countdown {
         font-size: 1.5vw;
+        @media (max-width: 768px) {
+            font-size: 4vw;
+        }
     }
 }
