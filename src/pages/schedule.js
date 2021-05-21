@@ -13,7 +13,7 @@ const Press = () => (
       <Logo />
       <div className="page__content">
         <Helmet>
-            <title>hicathon | press release</title>
+            <title>hicathon | schedule</title>
             <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
         </Helmet>
         <div className="info__wrapper">
@@ -36,11 +36,15 @@ const Press = () => (
             <br></br>
             <div>📨 Catch-up & Feedback Streams</div>
             <div>May 22<sup>nd</sup> & 23<sup>rd</sup> | 8PM CEST | 3PM BRT</div>
-            <br></br><hr></hr><br></br>
-            <div>💬 Keynote by <a href="https://twitter.com/mjdklein">Michael Klein from TQ Tezos</a> <a href="https://discord.gg/eQJ2TCMnx8">(Talk about Homebase / Basedao)</a></div>
-            <div>May 25<sup>th</sup> | 3:30PM CEST | 10:30AM BRT</div>
             <br></br>
-            <div>More guest speakers coming soon...</div>
+            <div>🔴 Closing Stream</div>
+            <div>May 23<sup>rd</sup> | 8:00PM CEST | 3PM BRT</div>
+            <br></br><hr></hr><br></br>
+            <div>💬 Keynote by <a href="https://twitter.com/mjdklein">Michael Klein</a> from TQ Tezos. Talk about Homebase / Basedao in the <a href="https://discord.gg/eQJ2TCMnx8">#hicathon-stage discord channel</a></div>
+            <div>May 22<sup>nd</sup> | 3:30PM CEST | 10:30AM BRT</div>
+            <br></br>
+            <div>💬 Presentation by By Bernadine Bröcker, Founder, Vastari - "Does a DAO need a legal entity? Analysing the unanswered questions about law and blockchain". Presentation will be hosted in the <a href="https://discord.gg/C7PTzSWEaX">#hicathon-living-room discord channel</a></div>
+            <div>May 22<sup>nd</sup> | 3:30PM CEST | 10:30AM BRT</div>
             <br></br><hr></hr><br></br>
         </div>   
       </div>
