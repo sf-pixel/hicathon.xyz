@@ -24,7 +24,7 @@ const Press = () => (
         <div className="buttons">
           <Link to="/">🏠 Home</Link>
           <Link to="/guidelines">Brand Guidelines</Link>
-          <Link to="/guidelines">Code of Conduct</Link>
+          <Link to="/code-of-conduct">Code of Conduct</Link>
         </div>
       </div>
       
