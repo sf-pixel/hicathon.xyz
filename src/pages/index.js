@@ -48,7 +48,7 @@ const IndexPage = () => {
         <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
           <div>Before we continue: (Click!)</div><hr></hr>
           <div className="items">
-            <div>📺 Want to watch the event? <a href="https://twitter.com/verticalcrypto">Go to Twitter!</a></div>
+            {/*<div>📺 Want to watch the event? <a href="https://twitter.com/verticalcrypto">Go to Twitter!</a></div>*/}
             <div>🔴 Kick-off stream | 2PM CEST | 9AM BRT</div>
             <hr></hr>
             <div>✅ Already registered as a participant? <a href="https://discord.gg/efHzUbPwsF">Chat!</a></div>
