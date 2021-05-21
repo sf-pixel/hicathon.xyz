@@ -25,6 +25,7 @@ const Press = () => (
           <Link to="/">🏠 Home</Link>
           <Link to="/guidelines">Brand Guidelines</Link>
           <Link to="/code-of-conduct">Code of Conduct</Link>
+          <Link to="/schedule">Schedule</Link>
         </div>
       </div>
       

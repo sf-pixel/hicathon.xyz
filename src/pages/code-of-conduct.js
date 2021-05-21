@@ -24,6 +24,7 @@ const Conduct = () => (
           <Link to="/">🏠 Home</Link>
           <Link to="/guidelines">Brand Guidelines</Link>
           <Link to="/press">Press Release</Link>
+          <Link to="/schedule">Schedule</Link>
         </div>
       </div>
       

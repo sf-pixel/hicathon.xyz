@@ -33,10 +33,11 @@ const IndexPage = () => {
             <p>What is a hicathon? Simple! It's a hackathon centered around the development of <a href="https://hicetnunc.xyz">hicetnunc!</a> Now that that is clear, what's supposed to happen at the event? Volunteers from around the web have come together to talk about and work on development of the platform; Since the dev's are all volunteers, it's hard to get a lot of stuff done around here... that's where the community of volunteers come in! With the small group of devs, the platform was struggling to tackle all the bugs and features that the community wanted, and with the hackathon, much more can be accomplished with the combined efforts of the community members. From artists to collectors alike, everyone has something to contribute whether it's intellectual or insigtful. <u>Every</u>. <u>Single</u>. <u>Person</u>. Getting all the help that's possible is a big feat in of itself, and with a rather large community a lot can be done during the time frame of the hackathon. During the event, participants will work on accelerating the development of H=N by working <u>alongside</u> the devs & governance.</p><br></br>
 
             <p>Ok. Good talk, now onto the good stuff. Since we're all a community It's great to see what everyone can do working together. Currently there are a few planning boards and timelines available - <i>made by the community (such as this website).</i> Everyone is able to view, edit, and contribute towards them, adding insight, and new ideas to the several boards and spreadsheets. With all these amazing tools, we're better able to organize not only the event, but everyone that's contributing towards it! The hackathon is set for May 22-23 and we can't wait to see everyone working towards a better H=N.</p><br></br>
-            <a href="/guidelines" className="button">📐 View our Brand Guidelines</a>
-            <a href="/code-of-conduct" className="button">📜 View our Code of Conduct</a>
-            <a href="/press" className="button">📰 View our Press Release</a>
-            <a href="/map" className="button">🤗 View our Volunteers</a>
+            <Link to="/guidelines" className="button">📐 View our Brand Guidelines</Link>
+            <Link to="/code-of-conduct" className="button">📜 View our Code of Conduct</Link>
+            <Link to="/press" className="button">📰 View our Press Release</Link>
+            <Link to="/schedule" className="button">📆 View our Schedule</Link>
+            <Link to="/map" className="button">🤗 View our Volunteers</Link>
         </div>    
       </div>
       <footer className="footer">
@@ -49,19 +50,12 @@ const IndexPage = () => {
           <div>Before we continue: (Click!)</div><hr></hr>
           <div className="items">
             {/*<div>📺 Want to watch the event? <a href="https://twitter.com/verticalcrypto">Go to Twitter!</a></div>*/}
-            <div>🔴 Kick-off Streams</div>
-            <div>May 22<sup>nd</sup> & May 23<sup>rd</sup> | 2PM CEST | 9AM BRT</div>
-            <div>📨 Catch-up & Feedback Streams</div>
-            <div>May 22<sup>nd</sup> & 23<sup>rd</sup> | 8PM CEST | 3PM BRT</div>
-            <hr></hr>
-            <div>💬 Keynote by Michael Klein from TQ Tezos</div>
-            <div><a href="https://discord.gg/eQJ2TCMnx8">(Talk about Homebase / Basedao)</a></div>
-            <div>May 25<sup>th</sup> | 3:30PM CEST | 10:30AM BRT</div>
+            <div><strong>🔒 Art donations are now closed! Thank you to everyone who donated!</strong></div>
             <hr></hr>
             <div>✅ Already registered as a participant? <a href="https://discord.gg/efHzUbPwsF">Chat!</a></div>
-            <div>🗺️ The volunteer map is live! <Link to="/map">View the map!</Link></div>
-            <div>📰 Our press release is live! <Link to="/press">View the press release!</Link></div>
-            <div>🗳️ Voting for WGs is open! <a href="https://hicathon.changecrab.com/">Vote now!</a></div>
+            {/*<div>🗺️ The volunteer map is live! <Link to="/map">View the map!</Link></div>
+            <div>📰 Our press release is live! <Link to="/press">View the press release!</Link></div>*/}
+            <div>📆 Take a peek at our schedule! <Link href="/schedule">View the events!</Link></div>
             <hr></hr>
             {/*<div>👀 Looking for the link to join us? (participants)<a href="https://discord.gg/p489HxDYM9">Look no further!</a></div>
             <div>📻 Want to tune into the event? <a href="twitter.com/verticalcrypto">Check our channels!</a></div>*/}
