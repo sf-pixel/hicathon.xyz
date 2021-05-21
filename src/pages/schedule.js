@@ -32,10 +32,11 @@ const Press = () => (
             <h3>Take a look at all our kick-off streams, keynotes & guest speakers!</h3><br></br>
             <hr></hr><br></br>
             <div>🔴 Kick-off Streams</div>
-            <div>May 22<sup>nd</sup> & May 23<sup>rd</sup> | 2PM CEST | 9AM BRT</div>
+            <div>May 22<sup>nd</sup> | 2PM CEST | 9AM BRT</div>
             <br></br>
             <div>📨 Catch-up & Feedback Streams</div>
-            <div>May 22<sup>nd</sup> & 23<sup>rd</sup> | 8PM CEST | 3PM BRT</div>
+            <div>May 22<sup>nd</sup> | 8PM CEST | 3PM BRT</div>
+            <div>May 23<sup>rd</sup> | 2PM CEST | 9AM BRT</div>
             <br></br>
             <div>🔴 Closing Stream</div>
             <div>May 23<sup>rd</sup> | 8:00PM CEST | 3PM BRT</div>
