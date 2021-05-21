@@ -54,6 +54,10 @@ const IndexPage = () => {
             <div>📨 Catch-up & Feedback Streams</div>
             <div>May 22<sup>nd</sup> & 23<sup>rd</sup> | 8PM CEST | 3PM BRT</div>
             <hr></hr>
+            <div>💬 Keynote by Michael Klein from TQ Tezos</div>
+            <div><a href="https://discord.gg/eQJ2TCMnx8">(Talk about Homebase / Basedao)</a></div>
+            <div>May 25<sup>th</sup> | 3:30PM CEST | 10:30AM BRT</div>
+            <hr></hr>
             <div>✅ Already registered as a participant? <a href="https://discord.gg/efHzUbPwsF">Chat!</a></div>
             <div>🗺️ The volunteer map is live! <Link to="/map">View the map!</Link></div>
             <div>📰 Our press release is live! <Link to="/press">View the press release!</Link></div>
