@@ -6,8 +6,8 @@ $font: "Source Code Pro", "Courier New", monospace;
 $light-grey: #A0A1A3;
 $not-quite-white: #F3F5F3;
 $not-quite-black: #111111;
-$shadow-light: #e3e3e3;
-$shadow-dark: #787878;
+$shadow-light: rgba(0, 0, 0, 0.13);
+$shadow-dark: rgba(0, 0, 0, 0.56);
 
 html, body {
     height: 100%;
@@ -124,6 +124,9 @@ body::-webkit-scrollbar-thumb {
                     width: 80%;
                     font-size: 18px;
                 }
+            }
+            .button:hover {
+                box-shadow: 10px 10px 25px $shadow-dark;
             }
             a {
                 color: $not-quite-black;

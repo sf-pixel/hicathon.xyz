@@ -1,0 +1,62 @@
+@import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inconsolata&display=swap);
+
+$light-grey: #A0A1A3;
+$not-quite-white: #F3F5F3;
+$not-quite-black: #111111;
+$shadow-light: rgba(0, 0, 0, 0.13);
+$shadow-dark: rgba(0, 0, 0, 0.56);
+
+.volunteer__map {
+    background-color: #111111;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.float__button {
+    position: absolute;
+    width: 15%;
+    top: 6%;
+    left: 2%;
+    a {
+        background-color: $not-quite-white;
+        border-right: 2px solid black;
+        border-bottom: 2px solid black; 
+        display: block;
+        text-decoration: none;
+        color: $not-quite-black;
+        text-align: center;
+        box-shadow: 10px 10px 25px $shadow-light;
+        transition: 0.4s;
+        transition-timing-function: ease-out;
+        @media (max-width: 1024px) {
+            width: 80%;
+            font-size: 18px;
+        }
+    }
+    a:hover {
+        box-shadow: 10px 10px 25px $shadow-dark;
+    }
+
+}
+
+.footer {
+    position: sticky;
+    bottom: 0;
+    left: 0;
+    background-color: $not-quite-white;
+    box-shadow: 10px 10px 25px $shadow-dark;
+    .page__footer__message {
+        font-size: 16px;
+        text-align: center;
+        @media (max-width: 768px) {
+            padding: auto;
+            font-size: 15px;
+        }
+        a {
+            color: $not-quite-black;
+        }    
+    }
+}

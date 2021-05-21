@@ -17,12 +17,14 @@ $shadow-dark: rgba(0, 0, 0, 0.56);
                 padding: 5vh;
             }
         }
-        .additional__inspo {
-            padding: 75px;
+        a {
+            color: $not-quite-black;
+        }
+        .ending__hash {
             text-align: center;
         }
-        .not__a__conduct {
-            box-shadow: 10px 10px 25px $shadow-dark;
+        .ending__remarks {
+            padding-bottom: 7vh;
         }
         
     }

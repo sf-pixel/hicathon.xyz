@@ -4,8 +4,12 @@ import { Link } from "gatsby"
 
 //import components
 import Logo from '../components/logo'
+
+//stylesheets
 import '../styles/styles.scss'
 import '../styles/guidelines.scss'
+
+//downloadable assets
 import blackPngLogo from '../downloads/assets/H=N_logo.png'
 import blackSvgLogo from '../downloads/assets/H=N_logo.svg'
 import whitePngLogo from '../downloads/assets/H=N_logo_white.png'

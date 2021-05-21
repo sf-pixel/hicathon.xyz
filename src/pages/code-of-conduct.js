@@ -23,6 +23,7 @@ const Conduct = () => (
         <div className="buttons">
           <Link to="/">🏠 Home</Link>
           <Link to="/guidelines">Brand Guidelines</Link>
+          <Link to="/press">Press Release</Link>
         </div>
       </div>
       
@@ -67,7 +68,7 @@ const Conduct = () => (
                 <p>If you believe someone is violating the code of conduct on the forum, we ask you to report it by sending a DM to <u>verticalcryptoart@gmail.com</u>. Please include a description of the incident, and we will respond as quickly as possible.</p><br></br><hr></hr>
                 <div className="additional__inspo">
                     <h4>For additional inspiration, below is a copy of OBJKTt# 6991 by Mario K from March 2021: </h4>
-                    <StaticImage src='../images/Conduct/CoC.png' className="not__a__conduct"/>
+                    <StaticImage src='../images/Conduct/CoC.png' className="not__a__conduct" alt="document written by Mario K, titled 'Not a Code of Conduct'"/>
                 </div>
                 
             </div>
@@ -76,7 +77,7 @@ const Conduct = () => (
     </div>
     <footer className="footer">
         <div className="page__footer__message">
-          Made with ❤️ by <a href='https://twitter.com/homeworkpunks'>@homeworkpunks</a>, powered by <a href="https://netlify.com">Netlify.</a>
+          Document made with ❤️ by <a href='https://twitter.com/jimfetterley'>@jimfetterley</a>, powered by <a href="https://netlify.com">Netlify.</a>
         </div>
     </footer>
   </div>
