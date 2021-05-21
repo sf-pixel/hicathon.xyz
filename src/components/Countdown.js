@@ -10,7 +10,7 @@ const Countdown = () => {
     let interval = useRef();
 
     const startTimer = () => {
-        const countdownDate = new Date('May 22, 2021 00:00:00').getTime();
+        const countdownDate = new Date('May 22, 2021 14:00:00 GMT+02:00').getTime();
         interval = setInterval(() => {
             const now = new Date().getTime();
             const distance = countdownDate - now;
@@ -43,6 +43,7 @@ const Countdown = () => {
     return (
         <div className="countdown__wrapper">
             <p>{timerDays}d : {timerHours}h : {timerMinutes}m : {timerSeconds}s</p>
+            <p className="sub__countdown">2PM CEST / 9AM BRT</p>
         </div>
     )
 

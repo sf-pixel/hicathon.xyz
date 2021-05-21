@@ -48,8 +48,10 @@ const IndexPage = () => {
         <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
           <div>Before we continue: (Click!)</div><hr></hr>
           <div className="items">
-            <div>✅ Already registered as a participant? <a href="https://discord.gg/efHzUbPwsF">Chat!</a></div>
             <div>📺 Want to watch the event? <a href="https://twitter.com/verticalcrypto">Go to Twitter!</a></div>
+            <div>🔴 Kick-off stream | 2PM CEST | 9AM BRT</div>
+            <hr></hr>
+            <div>✅ Already registered as a participant? <a href="https://discord.gg/efHzUbPwsF">Chat!</a></div>
             <div>🗺️ The volunteer map is live! <Link to="/map">View the map!</Link></div>
             <div>📰 Our press release is live! <Link to="/press">View the press release!</Link></div>
             <div>🗳️ Voting for WGs is open! <a href="https://hicathon.changecrab.com/">Vote now!</a></div>
