@@ -24,9 +24,9 @@ const IndexPage = () => {
           <h1 className="opening__title">The very first <u>hicathon</u>.</h1>
           <h2 classname="opening__sub__title">📆 May 22<sup>nd</sup> - May 23<sup>rd</sup></h2>
           <Countdown />
-          <a href="https://docs.google.com/spreadsheets/d/1zAD_4pHzygU204crpJWVyVoV27lSSW207ZZIaa8kcng/edit#gid=1267499412">🤝 Join the hicathon!</a>
-          <a href="https://discord.gg/efHzUbPwsF">💬 Chat with us on discord!</a>
-          <a href="https://miro.com/app/board/o9J_lELpu8c=/">👀 Check the work in progress!</a>
+          <a href="https://youtube.com/playlist?list=PL5Nm330sXU4cinZS2MvWELUGq7f4KksRw">📺 Watch the livestream recaps!</a>
+          <a href="#">🗞️ Take a look at our press review (upcoming)</a>
+          <a href="https://docs.hicathon.xyz">📖 Read about our projects (upcoming)</a>
         </div>
         <div className="about__para">
             <h3>About</h3>
@@ -47,18 +47,9 @@ const IndexPage = () => {
       </footer>
       <div>
         <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
-          <div>Before we continue: (Click!)</div><hr></hr>
+          <div>Thank you,</div><hr></hr>
           <div className="items">
-            <div>📺 Want to watch the event? <a href="https://youtu.be/UvynsPkCzUM">Go to Youtube!</a><a href="https://twitter.com/verticalcrypto"> Go to Twitter!</a></div>
-            <div>👀 Looking for the link to join us? (participants)<a href="https://discord.gg/p489HxDYM9">Look no further!</a></div>
-            {/*<div><strong>🔒 Art donations are now closed! Thank you to everyone who donated!</strong></div>*/}
-            <hr></hr>
-            <div>✅ Already registered as a participant? <a href="https://discord.gg/efHzUbPwsF">Chat!</a></div>
-            {/*<div>🗺️ The volunteer map is live! <Link to="/map">View the map!</Link></div>
-            <div>📰 Our press release is live! <Link to="/press">View the press release!</Link></div>*/}
-            <div>📆 Take a peek at our schedule! <Link href="/schedule">View the events!</Link></div>
-            <hr></hr>
-
+            <div>While our first Hicathon is officially over, our community continues to foster growth for hicetnunc! We would like to thank each and every participant and volunteer that was involved with this hicathon, if you couldn't catch the first hicathon, don't worry! You can <a href="https://discord.gg/efHzUbPwsF">join our discord</a> to get involved.</div>
           </div>
         </Popup>
     </div>

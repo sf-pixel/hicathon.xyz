@@ -42,7 +42,7 @@ const Countdown = () => {
 */}
     return (
         <div className="countdown__wrapper">
-            🔴 LIVE!
+            Hicathon is now over.
         </div>
     )
 
