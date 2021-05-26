@@ -24,8 +24,8 @@ const IndexPage = () => {
           <h1 className="opening__title">The very first <u>hicathon</u>.</h1>
           <h2 classname="opening__sub__title">📆 May 22<sup>nd</sup> - May 23<sup>rd</sup></h2>
           <Countdown />
-          <a href="https://youtube.com/playlist?list=PL5Nm330sXU4cinZS2MvWELUGq7f4KksRw">📺 Watch the livestream recaps!</a>
-          <a href="#">🗞️ Take a look at our press review (upcoming)</a>
+          <a href="https://drive.google.com/file/d/1c5jjAy178vwN7pc4FuZHkNSMKN7PaaHk/view">📺 Watch the livestream recaps!</a>
+          <a href="https://drive.google.com/file/d/1GYbGDCLjRpOoAnvkuz6AmzVvevjIsfzK/view?usp=sharing">🗞️ Take a look at our press review!</a>
           <a href="https://docs.hicathon.xyz">📖 Read about our projects (upcoming)</a>
         </div>
         <div className="about__para">
