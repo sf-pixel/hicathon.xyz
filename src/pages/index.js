@@ -50,6 +50,8 @@ const IndexPage = () => {
           <div>Thank you,</div><hr></hr>
           <div className="items">
             <div>While our first Hicathon is officially over, our community continues to foster growth for hicetnunc! We would like to thank each and every participant and volunteer that was involved with this hicathon, if you couldn't catch the first hicathon, don't worry! You can <a href="https://discord.gg/efHzUbPwsF">join our discord</a> to get involved.</div>
+            <hr></hr>
+            <div>Bounties have all been sent! You can check our breakdown <a href="https://docs.google.com/document/d/1GuRMaiNz3Y7BAKRldCDvO14Haoli7le6QLqa1g_MG0s/edit#">here.</a></div>
           </div>
         </Popup>
     </div>
