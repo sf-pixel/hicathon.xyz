@@ -39,7 +39,10 @@ const Press = () => (
             <div>May 23<sup>rd</sup> | 2PM CEST | 9AM BRT</div>
             <br></br>
             <div>🔴 Closing Stream</div>
-            <div>May 23<sup>rd</sup> | 8:00PM CEST | 3PM BRT</div>
+            <div>May 23<sup>rd</sup> | 8PM CEST | 3PM BRT</div>
+            <br></br>
+            <div>🔴 Post Hicathon Stream #1</div>
+            <div>June 6<sup>th</sup> | TBD CEST | TBD BRT</div>
             <br></br><hr></hr><br></br>
             <div>💬 Keynote by <a href="https://twitter.com/mjdklein">Michael Klein</a> from TQ Tezos. Talk about Homebase / Basedao in the <a href="https://discord.gg/eQJ2TCMnx8">#hicathon-stage discord channel</a></div>
             <div>May 22<sup>nd</sup> | 3:30PM CEST | 10:30AM BRT</div>
