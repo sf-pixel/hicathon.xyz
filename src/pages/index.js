@@ -50,7 +50,7 @@ const IndexPage = () => {
           <div>Before We Continue:</div><hr></hr>
           <div className="items">
             <div>🔴 Post-Hicathon Stream #1</div>
-            <div>June 6<sup>th</sup> | Time TBA</div>
+            <div>June 6<sup>th</sup> | 2PM CET | 9AM BRT</div>
           </div>
         </Popup>
     </div>
