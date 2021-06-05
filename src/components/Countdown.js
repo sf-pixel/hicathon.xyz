@@ -1,8 +1,8 @@
-import React, { useEffect, useRef, useState } from 'react';
+import React/*, { useEffect, useRef, useState }*/ from 'react';
 import '../styles/countdown.scss'
 
 const Countdown = () => {
-{/*}    const [timerDays, setTimerDays] = useState('00');
+/*}    const [timerDays, setTimerDays] = useState('00');
     const [timerHours, setTimerHours] = useState('00');
     const [timerMinutes, setTimerMinutes] = useState('00');
     const [timerSeconds, setTimerSeconds] = useState('00');
@@ -39,7 +39,7 @@ const Countdown = () => {
             clearInterval(interval.current);
         };
     });
-*/}
+*/
     return (
         <div className="countdown__wrapper">
             Hicathon is now over.

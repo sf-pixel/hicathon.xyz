@@ -6,7 +6,7 @@ import { StaticImage } from "gatsby-plugin-image"
 //import components
 import Logo from '../components/logo'
 import '../styles/styles.scss'
-import '../styles/conduct.scss'
+import '../styles/pages/conduct.scss'
 
 
 const Conduct = () => (
@@ -18,10 +18,10 @@ const Conduct = () => (
           <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Helmet>
       <div className="info__wrapper">
-        <h1>📜 Code of Conduct</h1>
+        <h1><span role="img" aria-label="old scroll emoji">📜</span> Code of Conduct</h1>
         <h3 className="sub__text">Hicathon | May 2021</h3>
         <div className="buttons">
-          <Link to="/">🏠 Home</Link>
+          <Link to="/"><span role="img" aria-label="house emoji">🏠</span> Home</Link>
           <Link to="/guidelines">Brand Guidelines</Link>
           <Link to="/press">Press Release</Link>
           <Link to="/schedule">Schedule</Link>
@@ -78,7 +78,7 @@ const Conduct = () => (
     </div>
     <footer className="footer">
         <div className="page__footer__message">
-          Document made with ❤️ by <a href='https://twitter.com/jimfetterley'>@jimfetterley</a>, powered by <a href="https://netlify.com">Netlify.</a>
+          Document made with <span role="img" aria-label="red hearth emoji">❤️</span> by <a href='https://twitter.com/jimfetterley'>@jimfetterley</a>, powered by <a href="https://netlify.com">Netlify.</a>
         </div>
     </footer>
   </div>

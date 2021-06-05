@@ -35,6 +35,8 @@ $shadow-dark: rgba(0, 0, 0, 0.56);
         }
     
         .close__btn {
+            border: none;
+            line-height: 1rem;
             cursor: pointer;
             font-size: 18px;
             text-align: center;
@@ -42,8 +44,12 @@ $shadow-dark: rgba(0, 0, 0, 0.56);
             height: fit-content;
             width: 1.5em;
             position: absolute;
-            top: 12px;
-            right: 12px;
+            top: 0.5rem;
+            right: 0.5rem;
+        }
+        button {
+            background-color: inherit;
+            color: $not-quite-black;
         }
         a {
             color: $not-quite-black;

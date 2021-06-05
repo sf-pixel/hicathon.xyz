@@ -1,11 +1,10 @@
 import * as React from "react"
 import { Helmet } from "react-helmet"
 import { Link } from "gatsby"
-import { StaticImage } from "gatsby-plugin-image"
 
 //import components
 import Logo from '../components/logo'
-import '../styles/press-release.scss'
+import '../styles/pages/press-release.scss'
 import '../styles/styles.scss'
 
 
@@ -19,10 +18,10 @@ const Press = () => (
           <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Helmet>
       <div className="info__wrapper">
-        <h1>📰 Press Release</h1>
+        <h1><span role="img" aria-label="newspaper emoji">📰</span> Press Release</h1>
         <h3 className="sub__text">Hicathon | May 2021</h3>
         <div className="buttons">
-          <Link to="/">🏠 Home</Link>
+          <Link to="/"><span role="img" aria-label="house emoji">🏠</span> Home</Link>
           <Link to="/guidelines">Brand Guidelines</Link>
           <Link to="/code-of-conduct">Code of Conduct</Link>
           <Link to="/schedule">Schedule</Link>
@@ -71,7 +70,7 @@ const Press = () => (
     </div>
     <footer className="footer">
         <div className="page__footer__message">
-          Document made with ❤️ by <a href='https://twitter.com/aljaparis'>@aljaparis</a>, powered by <a href="https://netlify.com">Netlify.</a>
+          Document made with <span role="img" aria-label="red heart emoji">❤️</span> by <a href='https://twitter.com/aljaparis'>@aljaparis</a>, powered by <a href="https://netlify.com">Netlify.</a>
         </div>
     </footer>
   </div>
