@@ -23,10 +23,9 @@ const IndexPage = () => {
         <div className="info__wrapper">
           <h1 className="opening__title">The very first <u>hicathon</u>.</h1>
           <h2 classname="opening__sub__title"><span role="img" aria-label="calendar emoji">📆</span> May 22<sup>nd</sup> - May 23<sup>rd</sup></h2>
-          <Countdown />
-          <a href="https://www.youtube.com/watch?v=NIy8F5b2_Pk"><span role="img" aria-label="television emoji">📺</span> Watch the livestream recap!</a>
-          <a href="https://drive.google.com/file/d/1GYbGDCLjRpOoAnvkuz6AmzVvevjIsfzK/view?usp=sharing"><span role="img" aria-label="rolled newspaper emoji">🗞️</span> Take a look at our press review!</a>
-          <a href="https://docs.hicathon.xyz"><span role="img" aria-label="open book emoji">📖</span> Read about our projects (upcoming)</a>
+          <div className="info__buttons">
+            <Link href="/recount"><span role="img" aria-label="running person emoji">🏃‍♂️</span> Catch up!</Link>
+          </div>
         </div>
         <div className="about__para">
             <h3>About</h3>
@@ -49,8 +48,7 @@ const IndexPage = () => {
         <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
           <div>Before We Continue:</div><hr></hr>
           <div className="items">
-            <div><span role="img" aria-label="red dot emoji">🔴</span> Post-Hicathon Stream #1 <a href="https://ohyay.co/s/hicathon">Join the call!</a></div>
-            <div>June 6<sup>th</sup> | 2PM CET | 9AM BRT </div>
+            <div><span role="img" aria-label="eyes emoji">👀</span> Catch up with the very first hicathon <Link to="/recount">here.</Link></div>
           </div>
         </Popup>
     </div>
