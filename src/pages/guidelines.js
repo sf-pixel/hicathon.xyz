@@ -28,7 +28,7 @@ const Guidelines = () => (
       <div className="info__wrapper">
         <h1><span role="img" aria-label="old scroll emoji">📜</span> Brand Guidelines</h1>
         <h3 className="skip__text">Skip to:</h3>
-        <div className="skip__buttons">
+        <div className="info__buttons">
           <Link to="/"><span role="img" aria-label="house emoji">🏠</span> Home</Link>
           <Link to="#skip__button__personality">Brand Personality</Link>
           <Link to="#skip__button__design">Design Guidelines</Link>
@@ -37,7 +37,7 @@ const Guidelines = () => (
       </div>
       
       <div className="guide__para">
-          <br></br><Link  id="skip__button__personality"></Link><br></br><br></br>
+          <Link  id="skip__button__personality"></Link><br></br><br></br>
           <h3><span role="img" aria-label="theater masks emoji">🎭</span> Brand Personality</h3><hr></hr>
           <p>When working on branding for hicathon, keep some key points in mind while designing, promoting, and mentioning content:</p><br></br>
           <h4><span role="img" aria-label="green check emoji">✔️</span> Do</h4><hr></hr>
