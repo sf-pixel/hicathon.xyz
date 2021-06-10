@@ -20,7 +20,7 @@ const Conduct = () => (
       <div className="info__wrapper">
         <h1><span role="img" aria-label="old scroll emoji">📜</span> Code of Conduct</h1>
         <h3 className="sub__text">Hicathon | May 2021</h3>
-        <div className="buttons">
+        <div className="info__buttons">
           <Link to="/"><span role="img" aria-label="house emoji">🏠</span> Home</Link>
           <Link to="/guidelines">Brand Guidelines</Link>
           <Link to="/press">Press Release</Link>
