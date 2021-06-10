@@ -17,7 +17,7 @@ const Recount = () => (
           <meta name="viewport" content="width=device-width, initial-scale=1.0"></meta>
       </Helmet>
       <div className="info__wrapper">
-        <h1 className="info__mobile"><span role="img" aria-label="newspaper emoji">📰</span> Press Release</h1>
+        <h1 className="info__mobile"><span role="img" aria-label="document emoji">📄</span> A breif recount</h1>
         <h3 className="sub__text__mobile">Hicathon | May 2021</h3>
         <div className="info__buttons__recount">
           <iframe src="https://www.youtube.com/embed/NIy8F5b2_Pk?controls=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; modestbranding; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
