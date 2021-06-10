@@ -1,0 +1,129 @@
+@import url(https://fonts.googleapis.com/css2?family=Source+Code+Pro&display=swap);
+@import url(https://fonts.googleapis.com/css2?family=Inconsolata&display=swap);
+
+$light-grey: #A0A1A3;
+$not-quite-white: #F3F5F3;
+$not-quite-black: #111111;
+$shadow-light: rgba(0, 0, 0, 0.13);
+$shadow-dark: rgba(0, 0, 0, 0.56);
+
+.page__wrapper {
+    .page__content {
+        .info__wrapper {
+            .info__mobile {
+                display: none;
+                @media (max-width: 768px) {
+                    display: block;
+                }
+            }
+            .sub__text__mobile {
+                display: none;
+                padding-bottom: 5vh;
+                @media (max-width: 768px) {
+                    display: block;
+                }
+            }
+            .buttons {
+                padding-bottom: 5vh;
+            }
+            .info__buttons__recount {
+                padding-top: 25px;
+                padding-bottom: 50px;
+                a {
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: 15px;
+                    border-right: 2px solid black;
+                    border-bottom: 2px solid black; 
+                    display: block;
+                    width: 70%;
+                    text-decoration: none;
+                    color: $not-quite-black;
+                    text-align: center;
+                    box-shadow: 10px 10px 25px $shadow-light;
+                    transition: 0.4s;
+                    transition-timing-function: ease-out;
+                    @media (max-width: 1024px) {
+                        width: 100%;
+                        font-size: 18px;
+                    }
+                }
+                a:hover {
+                    box-shadow: 10px 10px 25px $shadow-dark;
+                }
+                .video__button {
+                    display: none;
+                    @media (max-width: 768px) {
+                        display: block
+                    }
+                }
+            }
+        }
+        .collection__statement {
+            font-size: 24px;
+            text-align: center;
+            padding-bottom: 20px;
+        }
+        .donated__pieces {
+            overflow: hidden;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            img {
+                padding: 9px;
+                width: 16vw;
+                height: 16vw;
+            }
+            video {
+                padding: 9px;
+                width: 16vw;
+                height: 16vw;
+                object-fit: cover;
+            }
+        }
+    }
+}
+.recount__buttons {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    .button {
+        margin-left: auto;
+        margin-right: auto;
+        margin-bottom: 15px;
+        border-right: 2px solid black;
+        border-bottom: 2px solid black; 
+        display: block;
+        width: 70%;
+        text-decoration: none;
+        color: $not-quite-black;
+        text-align: center;
+        box-shadow: 10px 10px 25px $shadow-light;
+        transition: 0.4s;
+        transition-timing-function: ease-out;
+        z-index: 10;
+        @media (max-width: 1024px) {
+            width: 100%;
+            font-size: 18px;
+        }
+    }
+    .button:hover {
+        box-shadow: 10px 10px 25px $shadow-dark;
+    }
+}
+
+iframe {
+    display: block;
+    box-shadow: 10px 10px 25px $shadow-dark;
+    padding: 25px;
+    border-right: 2px solid $not-quite-black;
+    border-bottom: 2px solid $not-quite-black;
+    margin-bottom: 25px;
+    margin-left: auto;
+    margin-right: auto;
+    position: relative;
+    width: 69.8%;
+    height: 25vw;
+    @media (max-width: 768px) {
+        display: none;
+    }
+}

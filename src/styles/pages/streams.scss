@@ -13,13 +13,15 @@ $shadow-dark: rgba(0, 0, 0, 0.56);
             .sub__text {
                 padding-bottom: 5vh;
             }
+            .buttons {
+                padding-bottom: 5vh;
+            }
         }
-        .additional__inspo {
-            padding: 75px;
-            text-align: center;
+        a {
+            color: $not-quite-black;
         }
-        .not__a__conduct {
-            box-shadow: 10px 10px 25px $shadow-dark;
+        .ending__remarks {
+            padding-bottom: 7vh;
         }
         
     }

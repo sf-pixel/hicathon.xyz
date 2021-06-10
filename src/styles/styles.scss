@@ -66,34 +66,40 @@ body::-webkit-scrollbar-thumb {
 
         .info__wrapper {
             height: max-content;
+            
             .opening__title {
                 line-height: 1.3;
             }
-            a {
-                margin-left: auto;
-                margin-right: auto;
-                margin-bottom: 15px;
-                border-right: 2px solid black;
-                border-bottom: 2px solid black; 
-                display: block;
-                width: 70%;
-                text-decoration: none;
-                color: $not-quite-black;
-                text-align: center;
-                box-shadow: 10px 10px 25px $shadow-light;
-                transition: 0.4s;
-                transition-timing-function: ease-out;
-                @media (max-width: 1024px) {
-                    width: 100%;
-                    font-size: 18px;
+            .info__buttons {
+                padding-bottom: 75px;
+                padding-top: 75px;
+                a {
+                    margin-left: auto;
+                    margin-right: auto;
+                    margin-bottom: 15px;
+                    border-right: 2px solid black;
+                    border-bottom: 2px solid black; 
+                    display: block;
+                    width: 70%;
+                    text-decoration: none;
+                    color: $not-quite-black;
+                    text-align: center;
+                    box-shadow: 10px 10px 25px $shadow-light;
+                    transition: 0.4s;
+                    transition-timing-function: ease-out;
+                    @media (max-width: 1024px) {
+                        width: 100%;
+                        font-size: 18px;
+                    }
                 }
             }
+            
+            
             a:hover {
                 box-shadow: 10px 10px 25px $shadow-dark;
             }
         }
         .about__para {
-            padding-top: 75px;
             margin-bottom: 100px;
             h3  {
                 font-size: 28px;
