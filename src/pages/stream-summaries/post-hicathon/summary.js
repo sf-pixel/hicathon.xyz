@@ -151,7 +151,7 @@ const Press = () => (
       </div>
       <footer className="footer">
           <div className="page__footer__message">
-            Document made with <span role="img" aria-label="red heart emoji">❤️</span> by <a href='https://twitter.com/itsaherring'>@itsaherring</a>, powered by <a href="https://netlify.com">Netlify.</a>
+            Document made with <span role="img" aria-label="red heart emoji">❤️</span> by <a href='https://twitter.com/dianedrubay'>@DianeDrubay</a>, powered by <a href="https://netlify.com">Netlify.</a>
           </div>
       </footer>
     </div>

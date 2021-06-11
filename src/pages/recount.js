@@ -32,15 +32,12 @@ const Recount = () => (
         <br></br>
         <hr></hr>
         <br></br>
-        <p className="collection__statement"><i>View the hicathon fan-pieces, a part of the <a href="https://hicathon-gallery.netlify.app/gallery/hicathon">donated collection.</a></i></p>
-        <div className="donated__pieces">
-            <video src="https://ipfs.io/ipfs/QmadYqKwXP2JBvkf3h2mjuUqpDwL59jZZQyFURfNJfS9ij" autoplay="autoplay" muted loop loading="lazy"></video>
-            <img src="https://cloudflare-ipfs.com/ipfs/QmdkqjDcZBE5f4MiDu4r4LBRGhYxENZF1ruCvqXxaAQRWF" loading="lazy"></img>
-            <img src="https://cloudflare-ipfs.com/ipfs/QmQn3w2NYQK6D124RVgv4dUEFxRgnm5YvUwcQnQD6JNx8w" loading="lazy"></img>
-            <video src="https://ipfs.io/ipfs/QmRDJFugvbtYcMurKTN8fbLDkY8ooA3VFyhNy3BajiZNRg" autoplay="autoplay" muted loop loading="lazy"></video>
-            <video src="https://ipfs.io/ipfs/QmdqjZm9uCWSg5kRNWzGyfmKtd6xZpUmkdNCw8y6AfKYaA" autoplay="autoplay" muted loop loading="lazy"></video>
-            <video src="https://ipfs.io/ipfs/QmTdTyQNiyp75KkxxL2V25b4EddgkMrFDscLraDhzqi35J" autoplay="autoplay" muted loop loading="lazy"></video>
-          </div>
+        <div>
+          <p>Hic et nunc, the first Tezos-based NFT marketplace ran its first hackathon - 'hicathon' on May 22nd-23rd. The hicathon was an all volunteer community-led event to support and accelerate the development the platform. 150 participants joined across 77 different countries to take part across a range of working groups. The initiative was made possible by the hic et nunc community, donations from artists and collectors, and generous grants from the Tezos Foundation and Tezos Commons. Arthur Breitman, an early architect of the Tezos protocol, has also joined the event as a keynote speaker.</p>
+          <p>Among the topics explored participants also discussed the idea of galleries, a limited feature that has been prototyped on the site under the public “galleries” page but not yet offered to all users. In addition, there has been a strong desire in the community to extend the core functionality of the site in other ways. Three of the most popular requests included auctions, the splitting of sales, and unlockable content for OBJKTs. Solutions for auctions and the splitting of sales included UI mockups and functional prototypes.</p>
+          <p>The new prototype for the collaborative smart contract for splitting of sales will allow users to mint from a special collaborative wallet ID and specify what percentage of the sales each user should receive. Future development goals for this feature include considering how this can be of use to curators, support more users, allow everybody who is a part of the collaboration to mint, a signing system for collaborators to sign the terms before creating the contract, and even allowing the contract to be changed in the future.</p>
+          <p>As a decentralized community without any official leadership or company behind it, major discussion points revolved around finding a decentralised governance model for the hic et nunc hDAO token. The hicathon also served as an experiment in self-organisation and finding consensus. Non-technical groups worked on creating the foundations for a democratic governance model that will eventually allow the community to vote and make binding decisions for the future roadmap of hic et nunc.</p>
+        </div>
         <br></br>
         <hr></hr>
         <br></br>
@@ -52,6 +49,17 @@ const Recount = () => (
           <Link to="/stream-summaries/day-2/catch-up" className="button"><span role="img" aria-label="document emoji">📄</span>Day 2 Catch-Up</Link>
           <Link to="/stream-summaries/post-hicathon/summary" className="button"><span role="img" aria-label="document emoji">📄</span>Post-Hicathon</Link>
         </div>
+        <p className="collection__statement"><i>View the hicathon fan-pieces, a part of the <a href="https://hicathon-gallery.netlify.app/gallery/hicathon">donated collection.</a></i></p>
+        <div className="donated__pieces">
+            <video src="https://ipfs.io/ipfs/QmadYqKwXP2JBvkf3h2mjuUqpDwL59jZZQyFURfNJfS9ij" autoplay="autoplay" muted loop loading="lazy"></video>
+            <img src="https://cloudflare-ipfs.com/ipfs/QmdkqjDcZBE5f4MiDu4r4LBRGhYxENZF1ruCvqXxaAQRWF" loading="lazy"></img>
+            <img src="https://cloudflare-ipfs.com/ipfs/QmQn3w2NYQK6D124RVgv4dUEFxRgnm5YvUwcQnQD6JNx8w" loading="lazy"></img>
+            <video src="https://ipfs.io/ipfs/QmRDJFugvbtYcMurKTN8fbLDkY8ooA3VFyhNy3BajiZNRg" autoplay="autoplay" muted loop loading="lazy"></video>
+            <video src="https://ipfs.io/ipfs/QmdqjZm9uCWSg5kRNWzGyfmKtd6xZpUmkdNCw8y6AfKYaA" autoplay="autoplay" muted loop loading="lazy"></video>
+            <video src="https://ipfs.io/ipfs/QmTdTyQNiyp75KkxxL2V25b4EddgkMrFDscLraDhzqi35J" autoplay="autoplay" muted loop loading="lazy"></video>
+          </div>
+        <br></br>
+        <br></br>
       </div>   
     </div>
     <footer className="footer">
