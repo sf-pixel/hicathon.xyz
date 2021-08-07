@@ -25,6 +25,7 @@ const IndexPage = () => {
           <h2 classname="opening__sub__title"><span role="img" aria-label="calendar emoji">📆</span> May 22<sup>nd</sup> - May 23<sup>rd</sup></h2>
           <div className="info__buttons">
             <Link href="/recount"><span role="img" aria-label="running person emoji">🏃‍♂️</span> Catch up!</Link>
+            <a href="https://docs.hicathon.xyz"><span role="img" aria-label="paper emoji">📄</span> Read our documentation!</a>
           </div>
         </div>
         <div className="about__para">
@@ -49,6 +50,7 @@ const IndexPage = () => {
           <div>Before We Continue:</div><hr></hr>
           <div className="items">
             <div><span role="img" aria-label="eyes emoji">👀</span> Catch up with the very first hicathon <Link to="/recount">here.</Link></div>
+            <div><span role="img" aria-label="paper emoji">📄</span> Take a look at our <a href="https://docs.hicathon.xyz">documentation!</a></div>
           </div>
         </Popup>
     </div>
