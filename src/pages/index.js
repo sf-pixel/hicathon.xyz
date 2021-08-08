@@ -49,8 +49,10 @@ const IndexPage = () => {
         <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
           <div>Before We Continue:</div><hr></hr>
           <div className="items">
-            <div><span role="img" aria-label="eyes emoji">👀</span> Catch up with the very first hicathon <Link to="/recount">here.</Link></div>
+            <div>Community voting has begun! <a href="https://community.hicetnunc.xyz/c/hicathon/5">Discuss wtih the community</a>.</div>
             <div><span role="img" aria-label="paper emoji">📄</span> Take a look at our <a href="https://docs.hicathon.xyz">documentation!</a></div>
+            <hr />
+            <div>Final livestream: Sept. 18<sup>th</sup></div>
           </div>
         </Popup>
     </div>
