@@ -49,7 +49,7 @@ const IndexPage = () => {
         <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
           <div>Before We Continue:</div><hr></hr>
           <div className="items">
-            <div>Community voting has begun! <a href="https://community.hicetnunc.xyz/c/hicathon/5">Discuss with the community</a>.</div>
+            <div>Community voting has begun! <a href="https://community.hicetnunc.xyz/c/hicathon/5">Discuss with the community</a>, and <a href="https://hicvote.vercel.app/">vote!</a></div>
             <div><span role="img" aria-label="paper emoji">📄</span> Take a look at our <a href="https://docs.hicathon.xyz">documentation!</a></div>
             <hr />
             <div>Final livestream: Sept. 18<sup>th</sup></div>
