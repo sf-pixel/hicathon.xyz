@@ -52,7 +52,7 @@ const IndexPage = () => {
             <div>Community voting has begun! <a href="https://community.hicetnunc.xyz/c/hicathon/5">Discuss with the community</a>, and <a href="http://henvote.xyz/">vote!</a></div>
             <div><span role="img" aria-label="paper emoji">📄</span> Take a look at our <a href="https://docs.hicathon.xyz">documentation!</a></div>
             <hr />
-            <div>Final livestream: Sept. 18<sup>th</sup></div>
+            <div>Final livestream: Sept. 26<sup>th</sup> 12PM UTC</div>
           </div>
         </Popup>
     </div>
