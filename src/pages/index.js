@@ -47,9 +47,12 @@ const IndexPage = () => {
       </footer>
       <div>
         <Popup trigger={buttonPopup} setTrigger={setButtonPopup}>
-          <div>Before We Continue:</div><hr></hr>
+          <div>Take a Peek:</div><hr></hr>
           <div className="items">
-            <div>Final livestream: Sept. 26<sup>th</sup> 12PM UTC on <a href="https://ohyay.co/s/hicathon" target="_blank">OhYay</a></div>
+            <div>
+              <span type="image" aria-label="document emoji">📄 </span>
+              <a href="https://docs.hicathon.xyz" target="_blank" referrerPolicy="no-ref">Check out our docs!</a>
+            </div>
           </div>
         </Popup>
     </div>
