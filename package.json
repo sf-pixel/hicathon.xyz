@@ -22,7 +22,7 @@
     "gatsby-transformer-sharp": "^3.2.0",
     "gsap": "^3.6.1",
     "node-fetch": "^2.6.1",
-    "node-sass": "^5.0.0",
+    "node-sass": "^7.0.0",
     "node-sheets": "^1.2.0",
     "prop-types": "^15.7.2",
     "react": "^17.0.1",
